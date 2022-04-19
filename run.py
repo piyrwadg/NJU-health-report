@@ -19,7 +19,7 @@ def get_zjhs_time(method='YESTERDAY'):
     testday = '2022-4-10 20'
     if method == 'YESTERDAY':
         return yesterday.strftime("%Y-%m-%d %-H")
-    if method == 'TESTDAY'
+    if method == 'TESTDAY':
         return testday     
 
 
