@@ -21,7 +21,7 @@ def get_zjhs_time(method='YESTERDAY'):
         return testday
 
 
-def apply(curr_location, logger, auth: NjuUiaAuth, covidTestMethod='TEST', force=True):
+def apply(curr_location, logger, auth: NjuUiaAuth, covidTestMethod='TEST', force=False):
     """
     完成一次健康打卡
     :param `covidTestMethod`: 最近核酸时间的方案
